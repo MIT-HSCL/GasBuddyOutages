@@ -52,6 +52,14 @@ Make sure you have Python 3.8+ installed on your system. You can download it [he
   pip install -r requirements.txt
   ```
 
+### Run the script
+  While in the project root:
+  ```
+  python gb_reader.py
+  ```
+
+  This will create two csv files with all of the tabulated data contained in the subfolders copied down from GasBuddy. I would suggest copying these files to a location and using Tableau to develop visualizations. The visualzations can be updated live as the GasBuddy data is made available.
+
 <hr/>
 
 
